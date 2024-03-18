@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-glib-test}",
+            "name": "Debug swift-glib-test",
+            "program": "${workspaceFolder:swift-glib-test}/.build/debug/swift-glib-test",
+            "preLaunchTask": "swift: Build Debug swift-glib-test"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-glib-test}",
+            "name": "Release swift-glib-test",
+            "program": "${workspaceFolder:swift-glib-test}/.build/release/swift-glib-test",
+            "preLaunchTask": "swift: Build Release swift-glib-test"
+        }
+    ]
+}
